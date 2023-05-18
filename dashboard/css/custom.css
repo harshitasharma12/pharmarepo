@@ -1,0 +1,17 @@
+.sb-topnav.bg-dark {
+    background-color: #66bc89 !important;
+}
+.sb-sidenav-dark {
+    background-color: #66bc89 !important;
+    color: rgba(255, 255, 255, 0.5);
+}
+.sb-sidenav-dark .sb-sidenav-footer {
+    background-color: #66bc89 !important;
+}
+.sb-sidenav .sb-sidenav-menu .nav .nav-link{
+	color: #ffffff !important;
+} 
+
+.sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-nav-link-icon{
+	color: #ffffff !important;
+}

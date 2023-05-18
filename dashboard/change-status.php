@@ -1,0 +1,15 @@
+<?php
+ require_once("includes/initialize.php");
+ if(isset($_GET['id']))
+ {
+     $id=$_GET['id'];
+     if(change_status_manually($id))
+     {
+         redirect_to("timeslot-list.php");
+     }
+     else
+     {
+         redirect_to("timeslot-list.php");
+     }
+ }
+?>

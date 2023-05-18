@@ -1,0 +1,15 @@
+<?php
+require_once("includes/initialize.php");
+if(isset($_GET['id']))
+{
+    $id=$_GET['id'];
+    if(app_del($id))
+    {
+        redirect_to("appoinment-list.php");
+    }
+    else
+    {
+        redirect_to("appoinment-list.php");
+    }
+}
+?>
